@@ -10,4 +10,4 @@ before_script:
   - flake8 --max-complexity=8 --exclude=*.txt,*.md,*.pyc *
 
 script: 
-   - python FigurasTest.py
+   - python FigurasTest.py -v
